@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kota Cianjur</title>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- my style -->
+    <link rel="stylesheet" href="css/apps.css" />
+
+    <!-- remix icon -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- header section start -->
+    <header>
+      <section class="navigation" id="home">
+        <div class="container">
+          <div class="box-navigation">
+            <div class="box logo">
+              <h1>Kota Cianjur</h1>
+            </div>
+
+            <nav class="box menu-navigation">
+              <ul>
+                <li>
+                  <i class="ri-home-3-line"></i>
+                  <a href="#home">Beranda</a>
+                </li>
+                <li>
+                  <i class="ri-landscape-line"></i>
+                  <a href="#sejarah">Sejarah</a>
+                </li>
+                <li>
+                  <i class="ri-flower-line"></i><a href="#wisata">Wisata</a>
+                </li>
+                <li>
+                  <i class="ri-contacts-book-2-line"></i
+                  ><a href="#kontak">Kontak</a>
+                </li>
+              </ul>
+            </nav>
+
+            <div class="box menu-bar">
+              <i class="ri-menu-3-fill"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="hero">
+        <h1>Cianjur Manjur</h1>
+        <p>Mandiri, Maju dan Religius</p>
+      </section>
+    </header>
+
+    <!-- header section end -->
+
+    <!-- sejarah section start -->
+    <main>
+      <section class="sejarah" id="sejarah">
+        <div class="container">
+          <div class="box-sejarah">
+            <h1>Sejarah Cianjur</h1>
+            <p>
+              Asal usul nama "Cianjur" sendiri berasal dari kata "Ci" yang
+              berarti sungai dan "Hujur" yang berarti jauh. Jadi, Cianjur
+              berarti "sungai yang jauh". Nama ini konon berasal dari legenda
+              bahwa kota ini dulunya dikenal sebagai wilayah yang jauh dari ibu
+              kota Kerajaan Sunda di Pakuan Pajajaran (sekarang Kota Bogor).
+            </p>
+          </div>
+          <aside>
+            <img src="img/logo.jpg" alt="lambang" />
+          </aside>
+        </div>
+      </section>
+
+      <!-- sejarah section end -->
+
+      <!-- Wisata section start -->
+      <section class="wisata" id="wisata">
+        <div class="container">
+          <div class="content">
+            <article class="wisata-list">
+              <img
+                src="img/taman-bunga.jpg"
+                alt="cibodas"
+                class="featured-image"
+              />
+              <h2>Taman Bunga Nusantara</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Repellat quo magni ipsa fugit blanditiis magnam.
+              </p>
+            </article>
+            <article class="wisata-list">
+              <img src="img/cibodas.jpg" alt="cibodas" class="featured-image" />
+              <h2>Kebun Raya Cibodas</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Repellat quo magni ipsa fugit blanditiis magnam.
+              </p>
+            </article>
+            <article class="wisata-list">
+              <img
+                src="img/kota-bunga.jpg"
+                alt="little-venice"
+                class="featured-image"
+              />
+              <h2>Little Venice Kota Bunga</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Repellat quo magni ipsa fugit blanditiis magnam.
+              </p>
+            </article>
+            <article class="wisata-list">
+              <img
+                src="img/the-jhon.jpg"
+                alt="cibodas"
+                class="featured-image"
+              />
+              <h2>The Jon's Resort</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Repellat quo magni ipsa fugit blanditiis magnam.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <!-- Wisata section end -->
+    </main>
+
+    <!-- Kontak section start -->
+    <footer>
+      <section class="kontak" id="kontak">
+        <div class="content">
+          <h1>Kontak</h1>
+          <form action="">
+            <table>
+              <tr>
+                <td>
+                  <label for="nama">Nama:</label>
+                  <input type="text" id="nama" name="nama" />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="pesan">Pesan:</label>
+                  <textarea
+                    name="pesan"
+                    id="pesan"
+                    rows="4"
+                    cols="50"
+                  ></textarea>
+                  <input type="submit" value="Kirim!" />
+                </td>
+              </tr>
+            </table>
+          </form>
+        </div>
+      </section>
+    </footer>
+    <!-- Kontak section end -->
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
